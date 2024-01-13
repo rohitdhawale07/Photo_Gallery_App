@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="./assets/search.css" />
+    <link rel="stylesheet" href="./assets/common.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="">
+        <img src="./assets/logo.png" alt="logo" class="logo" />
+      </a>
+      <a href=""> <h1 class="title">Gallery</h1></a>
+      <form action="./search.html" method="get">
+        <input
+          type="text"
+          name="q"
+          autocomplete="off"
+          class="search"
+          id=""
+          placeholder="Search Anything"
+        />
+        <input type="submit" value="SEARCH" name="" class="search" id="" />
+      </form>
+    </nav>
+    <section>
+      <h1 class="heading">
+        &lt;SEARCH FOR - <span id="search_query"></span> /&gt;
+      </h1>
+      <div class="container" id="result_container"></div>
+    </section>
+    <footer>
+      <a href="./"><h5>Gallery</h5></a>
+      <h1>|</h1>
+      <h5>Design and Developed by Rohit & Team!</h5>
+      <h1>|</h1>
+      <a href=""><h5>Github</h5></a>
+    </footer>
+
+    <script src="./assets/search.js"></script>
+    <script src="./assets/common.js"></script>
+  </body>
+</html>
