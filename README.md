@@ -2,13 +2,13 @@
 
 ## Languages Used
 
-- HMTL
+- HTML
 - CSS
 - Javascript
 
 ## API used
 
-- unsplash API
+- Unsplash API
 
 ## Color Pallete
 
