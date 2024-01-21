@@ -22,6 +22,7 @@ window.onload = function () {
 
 function loadDetail(data) {
   console.log(data);
+  document.getElementById("detailFor").innerText = data.description;
   document.getElementById("detailImage").src = data.urls.regular;
   document.getElementById("detailImage").style.borderColor = data.color;
   document.getElementById("descriptionText").innerText = data.alt_description;
