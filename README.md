@@ -19,4 +19,4 @@
 - https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&family=Press+Start+2P&display=swap
 
 ## Hosted Link
-- https://rohitdhawale07.github.io/Photo_Gallery_App/
+- https://photo-gallery-app-wine.vercel.app/
